@@ -1,0 +1,8 @@
+DOMAIN-SUFFIX,wutheringwaves.com,鸣潮
+DOMAIN-SUFFIX,kurogame.com,鸣潮
+DOMAIN-KEYWORD,kurogame,鸣潮
+DOMAIN-KEYWORD,wutheringwaves,鸣潮
+DOMAIN,cdn.kurogame.com,鸣潮
+DOMAIN,update.kurogame.com,鸣潮
+IP-CIDR,47.246.0.0/16,鸣潮,no-resolve
+IP-CIDR,47.252.0.0/16,鸣潮,no-resolve
