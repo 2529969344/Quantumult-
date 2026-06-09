@@ -1,38 +1,15 @@
-# ============================================================
-#  Wuthering Waves (鸣潮) — Clash 分流规则（国际服）
-#  更新时间：2026-06-09
-#  覆盖范围：官网、游戏服务、账号系统、CDN、资源下载、数据统计
-# ============================================================
-
-rules:
-
-  # ----------------------------------------------------------
-  # 1. 官方主域名（国际服）
-  # ----------------------------------------------------------
-  - DOMAIN-SUFFIX,kurogames.com,鸣潮
-  - DOMAIN-SUFFIX,kurogames-global.com,鸣潮
-  - DOMAIN-SUFFIX,kurogame.net,鸣潮
-  - DOMAIN-SUFFIX,kurogame-service.com,鸣潮
-
-  # ----------------------------------------------------------
-  # 2. 数据统计（第三方，Wuthering Waves 客户端使用）
-  # ----------------------------------------------------------
-  - DOMAIN,statistic-overseas.yunxinfw.com,鸣潮
-
-  # ----------------------------------------------------------
-  # 3. IP 段（已知国际服 CDN / 服务器节点，作为补充）
-  #
-  #  ⚠️  游戏服务器 IP 会随版本更新动态变化，且大量使用
-  #     Akamai、CloudFront、Zenlayer 等共享 CDN。
-  #     建议优先依赖域名规则，IP 规则仅作补充。
-  # ----------------------------------------------------------
+DOMAIN-SUFFIX,kurogames.com
+DOMAIN-SUFFIX,kurogames-global.com
+DOMAIN-SUFFIX,kurogame.net
+DOMAIN-SUFFIX,kurogame-service.com
+DOMAIN,statistic-overseas.yunxinfw.com
 
   # Zenlayer（国际官网解析地址之一：98.96.229.18 所在段）
-  - IP-CIDR,98.96.224.0/19,鸣潮,no-resolve
+IP-CIDR,98.96.224.0/19,鸣潮,no-resolve
   # 阿里云海外（47.246.x.x，国际服后端部分节点）
-  - IP-CIDR,47.246.0.0/16,鸣潮,no-resolve
+IP-CIDR,47.246.0.0/16,鸣潮,no-resolve
   # 阿里云海外（47.74.x.x，东南亚节点）
-  - IP-CIDR,47.74.0.0/16,鸣潮,no-resolve
+IP-CIDR,47.74.0.0/16,鸣潮,no-resolve
   # 腾讯云海外（119.28.x.x，部分游戏 API 节点）
-  - IP-CIDR,119.28.0.0/16,鸣潮,no-resolve
+IP-CIDR,119.28.0.0/16,鸣潮,no-resolve
 
