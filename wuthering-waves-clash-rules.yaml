@@ -1,7 +1,9 @@
 DOMAIN-SUFFIX,kurogames.com
 DOMAIN-SUFFIX,kurogames-global.com
 DOMAIN-SUFFIX,kurogame.net
+DOMAIN-SUFFIX,kurogame.xyz
 DOMAIN-SUFFIX,kurogame-service.com
+DOMAIN-KEYWORD,kurogame
 DOMAIN,statistic-overseas.yunxinfw.com
 
   # Zenlayer（国际官网解析地址之一：98.96.229.18 所在段）
